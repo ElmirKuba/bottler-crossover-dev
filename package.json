@@ -1,0 +1,30 @@
+{
+  "name": "launching-samp-macos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec node --loader ts-node/esm ./src/index.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/lodash": "^4.17.16",
+    "@types/plist": "^3.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.21.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "bplist-creator": "^0.1.1",
+    "bplist-parser": "^0.3.2",
+    "lodash": "^4.17.21",
+    "plist": "^3.1.0"
+  }
+}

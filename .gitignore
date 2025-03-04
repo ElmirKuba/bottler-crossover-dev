@@ -1,0 +1,4 @@
+.eslintrc.json
+.DS_Store
+for-work/*
+node_modules/*
