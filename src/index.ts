@@ -404,17 +404,16 @@ main();
  * файлы гта самп:
 
 ➜  SAMP find . -type f -exec sh -c 'echo "{} $(stat -f "%z" "{}") $(shasum "{}" | cut -d" " -f1)"' \;
+
 ./vorbisHooked.dll 65536 905d33aa70ad00d513c701cce22ad6fdb9d7d463
 ./anim/cuts.img 270096384 7b6e93200bbd3d836993fa3b9b6dca78ab7e7e4a
 ./anim/anim.img 10942464 1449d14a6e0e5a5af099bd084de51fb9fe4e7efa
 ./anim/ped.ifp 1433248 05e72e4fe28a202989bbd96d80a0f3c8f5513749
 ./menupatch.asi 2048 c526305c3397b9f68d97faf69afdf5fa517debce
-./version.json 178 22ac1160fc18b717d8bab1eecc3bade450f67905
 ./rcon.exe 36864 ac682119ac4dc51d8db82fd4a6a0e1f108b74a94
 ./SAMPFUNCS/GameExitFix.sf 7168 3186021e66e83565c3dd36f9206f0da5db23f424
 ./SAMPFUNCS/SAMPFUNCS.log 3206 1a9797cbc6a7b452dbacbb043cf2c1afaefceb7e
 ./SAMPFUNCS/sampfuncs-settings.ini 338 afb3d619375cd0329e6712a783a18925c6e64c05
-./.DS_Store 14340 452243038227cfba8b1432fb2d21e56bb9323161
 ./Redist/dxwebsetup.exe 292184 3c8243734cf43dd7bb2332ba05b58ccacfa4377c
 ./Redist/VCRHyb64bit.exe 44467132 985979f09c7dc3a1242b85f3c6028584e54eda5b
 ./Redist/README.txt 239 dbe25e0ac06a8b253c4d71bb0a72de18417f038d
@@ -427,7 +426,6 @@ main();
 ./plugins/MiTurboFix.asi 1398560 ed4325a3d05cf77eec01528805b04600b41b6482
 ./plugins/global.ini 167 00b66f299e3c06627dc2436a118738a7b43b7565
 ./vorbisFile.dll 53760 e4fb5e60b70cb62ebeb98f40c22a708c45228a00
-./cleo/.DS_Store 6148 65d642f2771baef32c3d5cbb5aaf930e9dcfdfaa
 ./crashes.cfg 195 25d74a5f723ae8c1c4d89d790bfc4d970f18ef3a
 ./bass.dll 124060 da41b5f405c6dcaa0730cc86363d09262f8741c8
 ./CLEO.asi 334848 a1de63b4e565d37c85960a276768061dc8bc4138
@@ -437,7 +435,6 @@ main();
 ./models/player.img 66738176 b7bba3c2300f1f83a73118256e8f5e9315617155
 ./models/particle.txd 650536 e95aa7bf5f709fcb214faf010b70fdd55665ccf9
 ./models/gta3.img 960462848 a9f9efb6644ccc3916312bc5f169b4cf0e21c59d
-./models/.DS_Store 6148 7c6b3127055d4983f9d25adc0242388d1dee1dc6
 ./models/gta_int.img 150024192 cc09131d9a7e8eb41ef6d080119a3c53708e1ef8
 ./models/fronten2.txd 3933224 06f92d83008686426099d59137208395501d915d
 ./models/fronten3.txd 9512 a3ae50d7a0faacfe7bc144fcb421e1ccbff0c06c
@@ -484,6 +481,7 @@ main();
 ./models/txd/splash2.txd 65704 d528969940ab600344e65292924a2acade9c4109
 ./models/txd/splash3.txd 40 587c09ccfd83dd6f2284c0bc7d95d42ea1ad7a81
 ./models/txd/loadsc1.txd 131240 326c9b1b6e7d07b884917bac658437927ffb795a
+
 ./models/txd/LD_OTB2.txd 198056 28ba8f3ea8f06876993ae7e127df2fd4a9a6143b
 ./models/txd/loadsc12.txd 131240 f936b49a40161c046ce026d6d01d2b961f205983
 ./models/txd/intro2.txd 131240 f521c135f9aa1e65d6ba799187600a486f944e3d
@@ -535,7 +533,6 @@ main();
 ./SilentPatchSA.asi 282624 586b5bc7d28385897ac27e182ec6383088bbc47c
 ./mouse.png 784 9d5ac6f6c4710738699d437938524641d3fcfa93
 ./samp.exe 527888 90daa7390ff389069901a77298a779dc49b4dd4f
-./audio/.DS_Store 6148 7ef53a762785b0ecf269072895d2d57c546b6f3b
 ./audio/CONFIG/StrmPaks.dat 272 ae27e333f8ef994a7afd64d1cb5a815ddbd4b786
 ./audio/CONFIG/PakFiles.dat 468 406f63036e4243ccc3e7d1ba5efc41d800ffc7b8
 ./audio/CONFIG/TrakLkup.dat 23064 88ad98ea4a1c92a1da8f686bd1fb76fc80fdee5b
@@ -579,6 +576,7 @@ main();
 ./update.exe 586264 583f837ae1c8808189aed51e785c072b1f339435
 ./ogg.dll 36864 b00735e08b821aa9fc5850084ae057b5f618fb2a
 ./RefreshRateFixByDarkP1xel32.LOG 53 fcd847d22946a44be103ef837d4b747f6b992a5b
+
 ./MoonLoaderUninstall.exe 157509 8afa5ee3fd324b3fab90c49bee74e569ea71da9b
 ./moonloader/reload_all.lua 458 db43057855869865cb447741c7e8f34ea3a0fa11
 ./moonloader/moonloader.log 1624 8c88fd803c9036d42fe3bf3c6749629cf71b0002
@@ -691,6 +689,9 @@ main();
 ./data/maps/LA/LAs2.ipl 38441 1db6483f61584c527b511cf93ce8357632612475
 ./data/maps/LA/LAw.ide 9411 9f8e0fcf7aff37ccfa034bf1cc308dba41215ba6
 ./data/maps/LA/LAn2.ide 9565 620d54351af569990d66e99a3a63fce9b0874b0f
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ./data/maps/LA/LAhills.ide 10601 09ea5763f1168e4bea8f65f87a6fa9c5d8e0c121
 ./data/maps/LA/LAs.ide 12575 fd6a08368fd529b0437c6e3d6651cccc51116d3e
 ./data/maps/LA/LAw2.ide 11060 1dd153aaa2ba88c452d12be7717fe4054f717a54
@@ -730,7 +731,6 @@ main();
 ./data/melee.dat 6306 7ce426ff0e91863d63fb54cdebbfcb8bf26e47e3
 ./data/gta_quick.dat 1079 495a274a7aa326b24d2f6affede181ed41c7509d
 ./data/gridref.dat 1498 57d88132ccc4171fea1c95f46c22770fbde8502c
-./data/.DS_Store 6148 99f143c08342062562610164abce18190af2349e
 ./data/surface.dat 576 93043b25a77e5beb244bd7901a96403374d810d5
 ./data/clothes.dat 5317 6465512c6eef7d05c0582b8a6539fa60fef44aa2
 ./data/cargrp.dat 3963 990c7d078b15b285ac89392eec13f6a89c639f39
@@ -904,5 +904,5 @@ main();
 ./SAMP/SAMP.ipl 2291 32d5cc60c1b56d62f0a4d5503ac1f60b1a1c97f1
 ./SAMP/blanktex.txd 33320 901fd1c737e95f09c096826eb547849ca1873b85
 ./samp.dll 2199552 56c15c64ff098e04c319221b5a88142421e5ae34
-➜  SAMP 
+
  */

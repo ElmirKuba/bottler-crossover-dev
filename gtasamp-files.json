@@ -1,0 +1,1982 @@
+{
+  "name": "GTA San Andreas MultiPlayer для изучения создания лаунчера надо где-то захостить)))",
+  "version": 0.1,
+  "files": {
+    "vorbisHooked.dll": {
+      "hash": "905d33aa70ad00d513c701cce22ad6fdb9d7d463",
+      "size": 65536
+    },
+    "anim/cuts.img": {
+      "hash": "7b6e93200bbd3d836993fa3b9b6dca78ab7e7e4a",
+      "size": 270096384
+    },
+    "anim/anim.img": {
+      "hash": "1449d14a6e0e5a5af099bd084de51fb9fe4e7efa",
+      "size": 10942464
+    },
+    "anim/ped.ifp": {
+      "hash": "05e72e4fe28a202989bbd96d80a0f3c8f5513749",
+      "size": 1433248
+    },
+    "menupatch.asi": {
+      "hash": "c526305c3397b9f68d97faf69afdf5fa517debce",
+      "size": 2048
+    },
+    "rcon.exe": {
+      "hash": "ac682119ac4dc51d8db82fd4a6a0e1f108b74a94",
+      "size": 36864
+    },
+    "SAMPFUNCS/GameExitFix.sf": {
+      "hash": "3186021e66e83565c3dd36f9206f0da5db23f424",
+      "size": 7168
+    },
+    "SAMPFUNCS/SAMPFUNCS.log": {
+      "hash": "1a9797cbc6a7b452dbacbb043cf2c1afaefceb7e",
+      "size": 3206
+    },
+    "SAMPFUNCS/sampfuncs-settings.ini": {
+      "hash": "afb3d619375cd0329e6712a783a18925c6e64c05",
+      "size": 338
+    },
+    "Redist/dxwebsetup.exe": {
+      "hash": "3c8243734cf43dd7bb2332ba05b58ccacfa4377c",
+      "size": 292184
+    },
+    "Redist/VCRHyb64bit.exe": {
+      "hash": "985979f09c7dc3a1242b85f3c6028584e54eda5b",
+      "size": 44467132
+    },
+    "Redist/README.txt": {
+      "hash": "dbe25e0ac06a8b253c4d71bb0a72de18417f038d",
+      "size": 239
+    },
+    "Redist/VCRHyb32bit.exe": {
+      "hash": "1b6239628078e719112f78c5a6b301f7287ac4f5",
+      "size": 26012348
+    },
+    "MoonLoader.asi": {
+      "hash": "03a86ab537d3925701f0f071b0186f12b25fc1b1",
+      "size": 2076672
+    },
+    "unins000.exe": {
+      "hash": "1636e2a48896391e6263396770b9a48c38bd3c52",
+      "size": 1364599
+    },
+    "GZFlashingFix by alferov.asi": {
+      "hash": "f616f4849866f2adf1a614dfcb4d702a106e01aa",
+      "size": 19968
+    },
+    "gtaweap3.ttf": {
+      "hash": "1fffd7004263d6bc2efc055281a083905f042a18",
+      "size": 103552
+    },
+    "resetRemove.asi": {
+      "hash": "a9c6203d8be8b8f225e17049679a413f72e08a74",
+      "size": 7168
+    },
+    "plugins/MiTurboFix.asi": {
+      "hash": "ed4325a3d05cf77eec01528805b04600b41b6482",
+      "size": 1398560
+    },
+    "plugins/global.ini": {
+      "hash": "00b66f299e3c06627dc2436a118738a7b43b7565",
+      "size": 167
+    },
+    "vorbisFile.dll": {
+      "hash": "e4fb5e60b70cb62ebeb98f40c22a708c45228a00",
+      "size": 53760
+    },
+    "crashes.cfg": {
+      "hash": "25d74a5f723ae8c1c4d89d790bfc4d970f18ef3a",
+      "size": 195
+    },
+    "bass.dll": {
+      "hash": "da41b5f405c6dcaa0730cc86363d09262f8741c8",
+      "size": 124060
+    },
+    "CLEO.asi": {
+      "hash": "a1de63b4e565d37c85960a276768061dc8bc4138",
+      "size": 334848
+    },
+    "sampgui.png": {
+      "hash": "3e1e1c6ffbfb092631fdb955e931da92a13d2589",
+      "size": 14091
+    },
+    "lua51.dll": {
+      "hash": "583cdab08519d99f49234965ffd07688ccf52c56",
+      "size": 606208
+    },
+    "cleo.log": {
+      "hash": "f1b5c41e26d475eb32f5e3c150a0e6c1b8518638",
+      "size": 2160
+    },
+    "models/player.img": {
+      "hash": "b7bba3c2300f1f83a73118256e8f5e9315617155",
+      "size": 66738176
+    },
+    "models/particle.txd": {
+      "hash": "e95aa7bf5f709fcb214faf010b70fdd55665ccf9",
+      "size": 650536
+    },
+    "models/gta3.img": {
+      "hash": "a9f9efb6644ccc3916312bc5f169b4cf0e21c59d",
+      "size": 960462848
+    },
+    "models/gta_int.img": {
+      "hash": "cc09131d9a7e8eb41ef6d080119a3c53708e1ef8",
+      "size": 150024192
+    },
+    "models/fronten2.txd": {
+      "hash": "06f92d83008686426099d59137208395501d915d",
+      "size": 3933224
+    },
+    "models/fronten3.txd": {
+      "hash": "a3ae50d7a0faacfe7bc144fcb421e1ccbff0c06c",
+      "size": 9512
+    },
+    "models/effects.fxp": {
+      "hash": "e1d4d7e8b39f795dbf78ca935548acbf3c5a015f",
+      "size": 616708
+    },
+    "models/fronten1.txd": {
+      "hash": "3356ac2bad0f8664093da775ee3f78afaf41ac53",
+      "size": 108200
+    },
+    "models/misc.txd": {
+      "hash": "8cc31d33a9b549923165220f854ee0e38e5b357a",
+      "size": 23976
+    },
+    "models/fronten_pc.txd": {
+      "hash": "30ea28f9250ed2b766edb056a0a90ac982c64904",
+      "size": 2344
+    },
+    "models/cutscene.img": {
+      "hash": "2cc14a7307feb2453e3219f8073cf991d7806ce2",
+      "size": 26947584
+    },
+    "models/fonts.txd": {
+      "hash": "33eaef239d5cf923a5a42725a4a1db7ea501138a",
+      "size": 2097448
+    },
+    "models/grass/plant1.txd": {
+      "hash": "e20f25e74f3ce806a19079811ae1f64decdbd117",
+      "size": 42152
+    },
+    "models/grass/grass2_2.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass0_1.dff": {
+      "hash": "667615c5946c8d76d3a8944c6152a6536d727fc9",
+      "size": 1596
+    },
+    "models/grass/grass2_3.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass2_1.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass0_3.dff": {
+      "hash": "35d16703045e7d0898c0aad5a99ee539205e0cc8",
+      "size": 1600
+    },
+    "models/grass/grass0_2.dff": {
+      "hash": "302168932aceedc390ebb8d5ab10251764aa91ad",
+      "size": 1596
+    },
+    "models/grass/grass2_4.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass0_4.dff": {
+      "hash": "5dd8e6f548a0428528b2da02776e1dad34be7746",
+      "size": 1601
+    },
+    "models/grass/grass1_3.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass3_1.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/plant1.dff": {
+      "hash": "8201958100a3ca77b80231ee65a130268cd1398c",
+      "size": 2072
+    },
+    "models/grass/grass1_2.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass3_2.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass3_3.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass1_1.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass1_4.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/grass/grass3_4.dff": {
+      "hash": "9efc70003517fb180d4341125c382f826598353b",
+      "size": 1981
+    },
+    "models/coll/peds.col": {
+      "hash": "641b3aa612f31d274a49074cf376d2ceef13ce4f",
+      "size": 21477
+    },
+    "models/coll/weapons.col": {
+      "hash": "8568baa74c4683f84689c4fee1e4b7240edca6c9",
+      "size": 560
+    },
+    "models/coll/vehicles.col": {
+      "hash": "006fcdca86ffdea15478c1a52aeb908fff19115c",
+      "size": 1096
+    },
+    "models/effectsPC.txd": {
+      "hash": "49ee57befc2d236a1cfa3377446095f4faac137a",
+      "size": 407080
+    },
+    "models/txd/LD_RCE4.txd": {
+      "hash": "d189d2c87f1656deae9949b106728c333d48b9f8",
+      "size": 197416
+    },
+    "models/txd/LD_CARD.txd": {
+      "hash": "4764de7c392ab837995e277727f3bc27dfa657e4",
+      "size": 441000
+    },
+    "models/txd/LD_RCE5.txd": {
+      "hash": "edd1f4af340a2f9e428747e8b4a0f8cfc9890117",
+      "size": 32936
+    },
+    "models/txd/LD_RCE2.txd": {
+      "hash": "b63d72a2590e8297e61a69dfedb8393786bf0bf0",
+      "size": 197416
+    },
+    "models/txd/LD_RCE3.txd": {
+      "hash": "b45b1d8eed068410d2b6e567d79a1340b4bb820c",
+      "size": 197416
+    },
+    "models/txd/load0uk.txd": {
+      "hash": "05eaa24524cdd4459673ebe4667147e7bfe20805",
+      "size": 131240
+    },
+    "models/txd/LD_RCE1.txd": {
+      "hash": "1ce12777f3b9428e332fc0a19cccd6d1296d9a51",
+      "size": 197416
+    },
+    "models/txd/LD_POKE.txd": {
+      "hash": "d54af216186744e322bdfc248fddec77882e6a81",
+      "size": 480936
+    },
+    "models/txd/INTRO3.TXD": {
+      "hash": "d954d85af26e1ddc94176798bab50f36de352154",
+      "size": 131240
+    },
+    "models/txd/LOADSUK.txd": {
+      "hash": "c407dbdb0285ac29051960926417e099dc279720",
+      "size": 1968040
+    },
+    "models/txd/loadsc13.txd": {
+      "hash": "0d19461c33da8463cc253cb881317674ec9b62be",
+      "size": 131240
+    },
+    "models/txd/loadsc0.txd": {
+      "hash": "ac57022fd8426d58843ab95e70333098d6f24f10",
+      "size": 131240
+    },
+    "models/txd/splash2.txd": {
+      "hash": "d528969940ab600344e65292924a2acade9c4109",
+      "size": 65704
+    },
+    "models/txd/splash3.txd": {
+      "hash": "587c09ccfd83dd6f2284c0bc7d95d42ea1ad7a81",
+      "size": 40
+    },
+    "models/txd/loadsc1.txd": {
+      "hash": "326c9b1b6e7d07b884917bac658437927ffb795a",
+      "size": 131240
+    },
+    "models/txd/LD_OTB2.txd": {
+      "hash": "28ba8f3ea8f06876993ae7e127df2fd4a9a6143b",
+      "size": 198056
+    },
+    "models/txd/loadsc12.txd": {
+      "hash": "f936b49a40161c046ce026d6d01d2b961f205983",
+      "size": 131240
+    },
+    "models/txd/intro2.txd": {
+      "hash": "f521c135f9aa1e65d6ba799187600a486f944e3d",
+      "size": 131240
+    },
+    "models/txd/loadsc10.txd": {
+      "hash": "860d2df202f1286a0c7d1970cc33f4c64bddfd54",
+      "size": 131240
+    },
+    "models/txd/loadsc3.txd": {
+      "hash": "3592e430152ed12ac0ba3a638716fb167bf689ea",
+      "size": 131240
+    },
+    "models/txd/splash1.txd": {
+      "hash": "eb437cfdc4f234376dc2e9523e6f5e440e796ac8",
+      "size": 65704
+    },
+    "models/txd/LOADSCS.txd": {
+      "hash": "f2bf42b7d151f2f427465279da2e0ea1831ed086",
+      "size": 4065704
+    },
+    "models/txd/loadsc2.txd": {
+      "hash": "432e1ba24ac2d28702ba800a24de90c25d1ab084",
+      "size": 131240
+    },
+    "models/txd/loadsc11.txd": {
+      "hash": "6118ac827f1517eda46a9ebc0ea69079622dce52",
+      "size": 131240
+    },
+    "models/txd/intro1.txd": {
+      "hash": "f4cb45c53daefd351086462e94bfb9df480ca20e",
+      "size": 131240
+    },
+    "models/txd/LD_POOL.txd": {
+      "hash": "44a043d822168e12b918b12b017b187a16d2ea31",
+      "size": 9000
+    },
+    "models/txd/loadsc6.txd": {
+      "hash": "b433a3ff5afe63964460e88aea7039dfb2993e61",
+      "size": 131240
+    },
+    "models/txd/LD_RACE.txd": {
+      "hash": "9c0572343a427a0e841b902e8c3947c0e3be7a5d",
+      "size": 427688
+    },
+    "models/txd/LD_SLOT.txd": {
+      "hash": "1934de4ebc6e2bb0eb4fd0a36ecd24f54b61815d",
+      "size": 13096
+    },
+    "models/txd/loadsc7.txd": {
+      "hash": "cfae534cd59d526bf8f046d27c3699b196684ff8",
+      "size": 131240
+    },
+    "models/txd/loadsc14.txd": {
+      "hash": "5e492a372ce351b2b06e03949b068cc01f37b496",
+      "size": 131240
+    },
+    "models/txd/intro4.txd": {
+      "hash": "76652550bfbc64c2d4ecb0b6dbdb713dddd0648f",
+      "size": 131240
+    },
+    "models/txd/loadsc5.txd": {
+      "hash": "4c4ccace566883207a9b6faaae9fb825d8809b01",
+      "size": 131240
+    },
+    "models/txd/loadsc4.txd": {
+      "hash": "6071e58be60635d3a22c2b239b58e0eaeb97dea9",
+      "size": 131240
+    },
+    "models/txd/LD_DRV.txd": {
+      "hash": "5feff536bae21be3bf748b966a6dd4028c3ff08a",
+      "size": 258096
+    },
+    "models/txd/loadsc9.txd": {
+      "hash": "7ef7b3ac56c4621b1c9dd9d71f700e6992275f5c",
+      "size": 131240
+    },
+    "models/txd/loadsc8.txd": {
+      "hash": "537ed933fc578eeb67fa89d82e029fa5c2c63956",
+      "size": 131240
+    },
+    "models/txd/ld_shtr.txd": {
+      "hash": "8401af44d1018c1b0aaa180eb41d0727a57fb5a3",
+      "size": 683048
+    },
+    "models/txd/outro.txd": {
+      "hash": "01b5ad4c6cb73e6ff1e3e09e1a75a1d941de8b5e",
+      "size": 263336
+    },
+    "models/txd/LD_OTB.txd": {
+      "hash": "6d1bbffb8b2ccb13ac90bfe9e5f3bffe80c70252",
+      "size": 998584
+    },
+    "models/txd/LD_ROUL.txd": {
+      "hash": "fdb8bbd7de61b76752870484dcb59563250b0ed7",
+      "size": 6568
+    },
+    "models/txd/ld_grav.txd": {
+      "hash": "b0e159628ca7cbbb98b5b0d3ecc5a93804c179e7",
+      "size": 667944
+    },
+    "models/txd/LD_BUM.txd": {
+      "hash": "4cf38cf0d7f363b36693176b9a47d255a79d6fb0",
+      "size": 16816
+    },
+    "models/txd/LD_NONE.txd": {
+      "hash": "78aa52ed4ddcd1d2562245a7ec1fc2fb9cf6962d",
+      "size": 113864
+    },
+    "models/txd/LD_SPAC.txd": {
+      "hash": "d459039c9d3b74a041063d0733938850b5f2a54b",
+      "size": 186312
+    },
+    "models/txd/LD_BEAT.txd": {
+      "hash": "c347c312a37ac6f2620922f2bdc1215c1b6924f1",
+      "size": 22312
+    },
+    "models/txd/LD_TATT.txd": {
+      "hash": "bc64dc013314941677c754e4d79722595e927813",
+      "size": 104488
+    },
+    "models/txd/LD_DUAL.txd": {
+      "hash": "95f767e839ce9ed2e327e9324dc9b2a926327575",
+      "size": 186312
+    },
+    "models/txd/LD_CHAT.txd": {
+      "hash": "4f516735e283b0671425768bb6139f20eff53a1b",
+      "size": 5928
+    },
+    "models/txd/LD_PLAN.txd": {
+      "hash": "3fffa75b8cadcb5b4f77cc6f70da2a23d4676461",
+      "size": 84528
+    },
+    "models/generic/arrow.DFF": {
+      "hash": "918bc77a28110171eac462df96ca10c7666d302b",
+      "size": 4849
+    },
+    "models/generic/wheels.txd": {
+      "hash": "cbd83671770ae10b91dc09e646aaeb93a84d7651",
+      "size": 23976
+    },
+    "models/generic/vehicle.txd": {
+      "hash": "2f1695b97a86d4319f094375dc1186aedac78fce",
+      "size": 1360296
+    },
+    "models/generic/zonecylb.DFF": {
+      "hash": "d06b511804f1271346b74de5332972ac9b6cb45b",
+      "size": 2260
+    },
+    "models/generic/air_vlo.DFF": {
+      "hash": "3900f4aad21c002b6580f489a1a50684636034d1",
+      "size": 7100
+    },
+    "models/generic/wheels.DFF": {
+      "hash": "1f4ef93cf1d6c078c62cf4b3507370ce6b1793ed",
+      "size": 129843
+    },
+    "models/generic/hoop.dff": {
+      "hash": "eadb8a296a370aa7e4ee5da989112782170e8a34",
+      "size": 3701
+    },
+    "models/hud.txd": {
+      "hash": "880666b550e61cf1127fa7ebbdac5d8f3a9bfc92",
+      "size": 215208
+    },
+    "models/pcbtns.txd": {
+      "hash": "b29182a6cbe49ca2f41c8ab2fe0cdffd4e4199ee",
+      "size": 4648
+    },
+    "samp_debug.exe": {
+      "hash": "5a307b11eedf77749de2601318be6c2fff1fde12",
+      "size": 147456
+    },
+    "ASI Loader ReadMe.txt": {
+      "hash": "8fede05f6ed3315a9dbf8b1f011c564c994b2ccc",
+      "size": 2885
+    },
+    "MiTurboFix.asi": {
+      "hash": "883c03099682b443e3ea8cc8e22b90852f40f811",
+      "size": 1398568
+    },
+    "eax.dll": {
+      "hash": "b5f626330520a970d10ece04fed62552d5ac7ffd",
+      "size": 188416
+    },
+    "SilentPatchSA.asi": {
+      "hash": "586b5bc7d28385897ac27e182ec6383088bbc47c",
+      "size": 282624
+    },
+    "mouse.png": {
+      "hash": "9d5ac6f6c4710738699d437938524641d3fcfa93",
+      "size": 784
+    },
+    "samp.exe": {
+      "hash": "90daa7390ff389069901a77298a779dc49b4dd4f",
+      "size": 527888
+    },
+    "audio/CONFIG/StrmPaks.dat": {
+      "hash": "ae27e333f8ef994a7afd64d1cb5a815ddbd4b786",
+      "size": 272
+    },
+    "audio/CONFIG/PakFiles.dat": {
+      "hash": "406f63036e4243ccc3e7d1ba5efc41d800ffc7b8",
+      "size": 468
+    },
+    "audio/CONFIG/TrakLkup.dat": {
+      "hash": "88ad98ea4a1c92a1da8f686bd1fb76fc80fdee5b",
+      "size": 23064
+    },
+    "audio/CONFIG/AudioEventHistory.txt": {
+      "hash": "cd4886a0d85f11d4fae47c8e6c6d746ce51d1c84",
+      "size": 114056
+    },
+    "audio/CONFIG/BankLkup.dat": {
+      "hash": "465b886f50ffc42193a2852cc9367a5b5adc2113",
+      "size": 1836
+    },
+    "audio/CONFIG/EventVol.dat": {
+      "hash": "3bc1f72d40325ce4922e51d122a9442f40e38f50",
+      "size": 45402
+    },
+    "audio/CONFIG/BankSlot.dat": {
+      "hash": "ba1ab2f58bc2406c5e4a5d064e1838aa72d3b314",
+      "size": 216902
+    },
+    "audio/streams/MH": {
+      "hash": "87e05ff47a783559c70c4b8564f056846727f6dd",
+      "size": 1754080
+    },
+    "audio/streams/HC": {
+      "hash": "19f2aa2fc68a66acc965edbb28b404be5e70b66b",
+      "size": 1327100
+    },
+    "audio/streams/MR": {
+      "hash": "5c10c32e5e62d662322e279b9a4d046f9b507237",
+      "size": 1696380
+    },
+    "audio/streams/DS": {
+      "hash": "cf27302c880ad9a16bed4af34bc25fe8c1bc16b7",
+      "size": 2065660
+    },
+    "audio/streams/CR": {
+      "hash": "304287531791524ea6eec6b80c86059aa7edbcf9",
+      "size": 1800240
+    },
+    "audio/streams/CH": {
+      "hash": "3fe99bd5cc662ed8f2977cfdb82ce522c8c456cf",
+      "size": 1500200
+    },
+    "audio/streams/CO": {
+      "hash": "4b733619c325965813679da578c175e8e56b089d",
+      "size": 1788700
+    },
+    "audio/streams/TK": {
+      "hash": "60ec5d87c307340fbef2b189b60abf48c2e0a367",
+      "size": 1165540
+    },
+    "audio/streams/ADVERTS": {
+      "hash": "94c3162b8c52e3d3acf84436314b579779d5d662",
+      "size": 796260
+    },
+    "audio/streams/RG": {
+      "hash": "277e27311328edaebfae073496f58b69ea641921",
+      "size": 1961800
+    },
+    "audio/streams/BEATS": {
+      "hash": "76b181730b7d90c1b9518a86147c782811d1f443",
+      "size": 30454668
+    },
+    "audio/streams/NJ": {
+      "hash": "3fe99bd5cc662ed8f2977cfdb82ce522c8c456cf",
+      "size": 1500200
+    },
+    "audio/streams/AA": {
+      "hash": "c12d0b46e8d3cc5d63dc1651c56a3555d5bfaeab",
+      "size": 761640
+    },
+    "audio/streams/AMBIENCE": {
+      "hash": "4cfeadca298c10ae58a805e1dc78410183d0ec68",
+      "size": 46514719
+    },
+    "audio/streams/CUTSCENE": {
+      "hash": "63de5a7f2311199a2ed544d762bcffb920d2eb3c",
+      "size": 1734018
+    },
+    "audio/streams/RE": {
+      "hash": "25e5183db1c3e518836f973b348c6487dca339c5",
+      "size": 1857940
+    },
+    "audio/SFX/SPC_GA": {
+      "hash": "770255f513b161681fc83ae3e37c70a2fed55cac",
+      "size": 2078274
+    },
+    "audio/SFX/FEET": {
+      "hash": "d4291cc70338dd08706634f133bc11605c1f9d71",
+      "size": 354020
+    },
+    "audio/SFX/SPC_NA": {
+      "hash": "57c0f4bac2b5394695adfd177498f8f5b22c67eb",
+      "size": 12191242
+    },
+    "audio/SFX/SCRIPT": {
+      "hash": "16788738928cff7e6750e4047cf2ba9ef5ccdc36",
+      "size": 2283522
+    },
+    "audio/SFX/GENRL": {
+      "hash": "c130f851942ae3836592a14c4fec6871418e92be",
+      "size": 23283516
+    },
+    "audio/SFX/SPC_PA": {
+      "hash": "f3304b45a3507175dabff7081b86d2e6b6372d73",
+      "size": 4636020
+    },
+    "audio/SFX/PAIN_A": {
+      "hash": "fe012eb06efcd500bb579f8ce4655e679981be76",
+      "size": 6704240
+    },
+    "audio/SFX/SPC_EA": {
+      "hash": "7c57c17a525c600f6c189968d9d5e4a6391186d4",
+      "size": 893604
+    },
+    "audio/SFX/SPC_FA": {
+      "hash": "7a592f16206501985b200c847096c27d27237ca7",
+      "size": 13748712
+    },
+    "stream.ini": {
+      "hash": "0a4c510cfec4b929c205b9914e4c0b8b1c82eb4e",
+      "size": 197
+    },
+    "scripts/global.ini": {
+      "hash": "e72dff9c74baf115e522cc148ddd17335ffc263f",
+      "size": 154
+    },
+    "SilentPatchSA.ini": {
+      "hash": "8b422023354bea54d008b2239b371f657447109d",
+      "size": 2783
+    },
+    "movies/GTAtitles.mpg": {
+      "hash": "4b89d23a14d13494b6f083f70bfb7115d4055376",
+      "size": 21577541
+    },
+    "movies/Logo.mpg": {
+      "hash": "f7d86cfc4bfc4a489a36a7451218544cee885ebf",
+      "size": 1822720
+    },
+    "movies/GTAtitles.srt": {
+      "hash": "ac94c7bcd53e86c0aca892c5d2502e847a35c8dc",
+      "size": 4034
+    },
+    "unins000.dat": {
+      "hash": "19c3f59500a12cc7556f5044ab4e8e30d3c0b95d",
+      "size": 52771
+    },
+    "crashes.asi": {
+      "hash": "07b7daa7ec14372bf95f9a032d1ac0b015bf484f",
+      "size": 285696
+    },
+    "update.exe": {
+      "hash": "583f837ae1c8808189aed51e785c072b1f339435",
+      "size": 586264
+    },
+    "ogg.dll": {
+      "hash": "b00735e08b821aa9fc5850084ae057b5f618fb2a",
+      "size": 36864
+    },
+    "RefreshRateFixByDarkP1xel32.LOG": {
+      "hash": "fcd847d22946a44be103ef837d4b747f6b992a5b",
+      "size": 53
+    },
+    "MoonLoaderUninstall.exe": {
+      "hash": "8afa5ee3fd324b3fab90c49bee74e569ea71da9b",
+      "size": 157509
+    },
+    "moonloader/reload_all.lua": {
+      "hash": "db43057855869865cb447741c7e8f34ea3a0fa11",
+      "size": 458
+    },
+    "moonloader/moonloader.log": {
+      "hash": "8c88fd803c9036d42fe3bf3c6749629cf71b0002",
+      "size": 1624
+    },
+    "moonloader/lib/sampfuncs.lua": {
+      "hash": "6697e26fca4866066683b0aa822b92dae0ae1566",
+      "size": 15207
+    },
+    "moonloader/lib/bitex.lua": {
+      "hash": "b5dfbebd378502333a36447529c85bd6f039cd49",
+      "size": 557
+    },
+    "moonloader/lib/iconv/README-lua-iconv": {
+      "hash": "97646079663ad8d5bbbd294c72459d5500ef8769",
+      "size": 4755
+    },
+    "moonloader/lib/iconv/README-libiconv": {
+      "hash": "d5c65781fd31830cd3bac92157e96d120a5a442d",
+      "size": 5801
+    },
+    "moonloader/lib/iconv/COPYING-libiconv": {
+      "hash": "0e8e850b0580fbaaa0872326cb1b8ad6adda9b0d",
+      "size": 25291
+    },
+    "moonloader/lib/vector3d.lua": {
+      "hash": "39b19408b235c6681f6d91ac350e83b8354ccd71",
+      "size": 1770
+    },
+    "moonloader/lib/encoding.lua": {
+      "hash": "ae7f28d9eb94eeb8f1f9e60d5def7e72475682ca",
+      "size": 2636
+    },
+    "moonloader/lib/iconv.dll": {
+      "hash": "6944c38c5d00dfffd16246944d597a3f88210534",
+      "size": 1000960
+    },
+    "moonloader/lib/game/weapons.lua": {
+      "hash": "1320764dd6242e1527f6f74ca5b3cb6e0295a937",
+      "size": 2443
+    },
+    "moonloader/lib/game/models.lua": {
+      "hash": "c92788cece35404d1502af604f103f6b070609b3",
+      "size": 12767
+    },
+    "moonloader/lib/game/keys.lua": {
+      "hash": "65e7007635c46a79aba5ff633dd0d4790b50314c",
+      "size": 1062
+    },
+    "moonloader/lib/game/globals.lua": {
+      "hash": "5fe1e68474463fc985e477bc525f264fc1f1606f",
+      "size": 28363
+    },
+    "moonloader/lib/vkeys.lua": {
+      "hash": "f38a6bd40af71237bced2c467f41338d3a12716b",
+      "size": 9814
+    },
+    "moonloader/lib/matrix3x3.lua": {
+      "hash": "a32982a4cc7dc702f54a81a975960e6ac49286b4",
+      "size": 2070
+    },
+    "moonloader/lib/windows/init.lua": {
+      "hash": "b80319fd6808dcded54ed265472a208d08313ace",
+      "size": 184
+    },
+    "moonloader/lib/windows/message.lua": {
+      "hash": "2e1c64ba56670ef38b0f23fb19bf3fc8ae476e0f",
+      "size": 26909
+    },
+    "moonloader/lib/samp/raknet.lua": {
+      "hash": "c34634d27068b2c10424b960ea5afdcb0ca18779",
+      "size": 12181
+    },
+    "moonloader/lib/samp/events.lua": {
+      "hash": "651bfbb74a1335835e6c35a983baff6b83c34fba",
+      "size": 26829
+    },
+    "moonloader/lib/samp/events/bitstream_io.lua": {
+      "hash": "e9ff4f6ed51bc72a06687e1e3884dd746639709a",
+      "size": 7155
+    },
+    "moonloader/lib/samp/events/extra_types.lua": {
+      "hash": "d7543be5a88ce8276c6a6be223b90b8b38ea3657",
+      "size": 1573
+    },
+    "moonloader/lib/samp/events/utils.lua": {
+      "hash": "bc711bdb8431e90bfd8f5d9e7e30baef974e5da3",
+      "size": 1385
+    },
+    "moonloader/lib/samp/events/handlers.lua": {
+      "hash": "e11ae2da0b1f178203c2e4fc37448f7cb7e3567e",
+      "size": 17405
+    },
+    "moonloader/lib/samp/events/core.lua": {
+      "hash": "e7b643acaf0833804d00fa35944056a52e587fff",
+      "size": 3880
+    },
+    "moonloader/lib/samp/synchronization.lua": {
+      "hash": "cf86bd4bbf09357407a642d7adaab44614081e85",
+      "size": 4296
+    },
+    "moonloader/lib/moonloader.lua": {
+      "hash": "d6ce49a39fcf3a794ed80b8490d9f58a1bfe8c8e",
+      "size": 3171
+    },
+    "moonloader/AutoReboot.lua": {
+      "hash": "8555b1ce520eabed3a3b633a83ea079fbc13aef7",
+      "size": 2781
+    },
+    "moonloader/SF Integration.lua": {
+      "hash": "0d9d7fe2c363f5d4ea3f17a8793ab8746fb9c888",
+      "size": 2422
+    },
+    "text/italian.gxt": {
+      "hash": "b2b48cea01205c8b76621b5f37f4f696ac50ce5e",
+      "size": 751379
+    },
+    "text/spanish.gxt": {
+      "hash": "5ab19fc900e2af1c869e174827f5c055fe44cd0d",
+      "size": 738276
+    },
+    "text/french.gxt": {
+      "hash": "5721fb4a42e18c46456b4e21900488a59ad69a18",
+      "size": 798974
+    },
+    "text/american.gxt": {
+      "hash": "e9065fe3b64d67aff04ddf7aed32596a9bebbb43",
+      "size": 766936
+    },
+    "text/german.gxt": {
+      "hash": "e3bf75927ca802369f881b23f23c0e6a29919a94",
+      "size": 812934
+    },
+    "SAMPFUNCS.asi": {
+      "hash": "a4e4e14f8baf38b8678f728cc88a180f1f970600",
+      "size": 1726464
+    },
+    "RefreshRateFixByDarkP1xel32.asi": {
+      "hash": "433de4740b871659ee4aa64b483874b0922ca6d8",
+      "size": 75264
+    },
+    "vorbis.dll": {
+      "hash": "c89297e75b6813cf8950e278a5c390e2c5f9d9f6",
+      "size": 1060864
+    },
+    "samp-license.txt": {
+      "hash": "7d312967f5bfe9a2a97ece01ce4b2ed842b87245",
+      "size": 3950
+    },
+    "data/maps/veh_mods/veh_mods.ide": {
+      "hash": "837e9fb430b801326762e6f29c6357507821ba46",
+      "size": 7323
+    },
+    "data/maps/tunnels.ipl": {
+      "hash": "78f3af350f6a872ca55d27fc3cbf821eea7f25c6",
+      "size": 3230
+    },
+    "data/maps/occluLA.ipl": {
+      "hash": "e2e473cbc13235a911ee860c5e2d421e11ba525c",
+      "size": 35956
+    },
+    "data/maps/occluveg.ipl": {
+      "hash": "e66478fcc1828d3c90487a6dd4a59d3e1816163d",
+      "size": 17944
+    },
+    "data/maps/txd.ide": {
+      "hash": "ea24153d92d70ea42a73af27d5b036639337534f",
+      "size": 323
+    },
+    "data/maps/paths3.ipl": {
+      "hash": "595d3703f2c2253ee1fe3e4044e56d6db86baf21",
+      "size": 2428066
+    },
+    "data/maps/paths2.ipl": {
+      "hash": "e954e5a18ba35385cb50e3a6f662c12f6843f2c6",
+      "size": 2292241
+    },
+    "data/maps/occluint.ipl": {
+      "hash": "fa9b77ce9bc5c2b661f40a6b469282e26722f7a0",
+      "size": 2338
+    },
+    "data/maps/paths5.ipl": {
+      "hash": "399a43f8af382ba3a121798328a046158946b6bb",
+      "size": 457678
+    },
+    "data/maps/paths4.ipl": {
+      "hash": "fb82080bd1eeb88a8f850fedfc122defe06bb1fe",
+      "size": 253014
+    },
+    "data/maps/occlusf.ipl": {
+      "hash": "00ab43180510cd8e0551dec6dc4dd7d10a08ca9f",
+      "size": 16114
+    },
+    "data/maps/SF/SFw.ide": {
+      "hash": "0f27bc375bf7cc928fd2d06c22989d35d09ece36",
+      "size": 16473
+    },
+    "data/maps/SF/SFs.ide": {
+      "hash": "6f65d50ddd082e6b9afed0ea53f6901d5758c71b",
+      "size": 18948
+    },
+    "data/maps/SF/SFe.ide": {
+      "hash": "c4fbe432e1da7b186d47d1e956220aa1675cb363",
+      "size": 16223
+    },
+    "data/maps/SF/SFSe.ide": {
+      "hash": "9dfb9eaff4a0176aec9c0d73039389263c645c67",
+      "size": 30227
+    },
+    "data/maps/SF/SFn.ipl": {
+      "hash": "fdead4906fb3274e400f53add858434989c81f0c",
+      "size": 26201
+    },
+    "data/maps/SF/SFxref.ide": {
+      "hash": "42730092366c61c8aad6082abe6c8d18f6596b26",
+      "size": 4631
+    },
+    "data/maps/SF/SFe.ipl": {
+      "hash": "9fcfb465e2bff8c5ca229c294d0065d07efb372b",
+      "size": 26707
+    },
+    "data/maps/SF/SFs.ipl": {
+      "hash": "0a58ef8fc1090f57d6c98b3f69740adcecff194a",
+      "size": 37969
+    },
+    "data/maps/SF/SFw.ipl": {
+      "hash": "4642cae7f956086b88dc0913d280f05c4bb5c5db",
+      "size": 29247
+    },
+    "data/maps/SF/SFSe.ipl": {
+      "hash": "82658842d0d371d00611fdf2a4397acdfe633c7f",
+      "size": 53359
+    },
+    "data/maps/SF/SFn.ide": {
+      "hash": "2daec3d19c337a209947b669993a964d49428928",
+      "size": 11219
+    },
+    "data/maps/vegas/VegasS.ide": {
+      "hash": "3275dfe5eda37d3e6ff1eaf6ed297338b4999729",
+      "size": 18656
+    },
+    "data/maps/vegas/vegasE.ide": {
+      "hash": "afb89bc18f9bfdd4c4910c424b35f5cfed6f85d0",
+      "size": 35542
+    },
+    "data/maps/vegas/VegasW.ide": {
+      "hash": "172d63fddbd2f5d28513501f1541657565066d9d",
+      "size": 25456
+    },
+    "data/maps/vegas/vegasN.ipl": {
+      "hash": "50179f6de49fc701455e9a2045271aa2fdf8a9c8",
+      "size": 36651
+    },
+    "data/maps/vegas/vegaxref.ide": {
+      "hash": "5b2dd92c634144af47defd52c19c1ffe9cbd2edc",
+      "size": 5751
+    },
+    "data/maps/vegas/vegasW.ipl": {
+      "hash": "75726290288369bee7573c3d2862f7925ad29e7c",
+      "size": 49867
+    },
+    "data/maps/vegas/vegasE.ipl": {
+      "hash": "ae0696565f4f96c0685b5ea5602f4516db344223",
+      "size": 61084
+    },
+    "data/maps/vegas/vegasS.ipl": {
+      "hash": "6b97e45a993f37bc4a76c872cec00cf3b91bd776",
+      "size": 30343
+    },
+    "data/maps/vegas/VegasN.ide": {
+      "hash": "a57d4645f7d633a0e3f6ed9a3178173f79f52d92",
+      "size": 23715
+    },
+    "data/maps/vegas/vegaxref.ipl": {
+      "hash": "e0fdf2b16927e3b528a63784d2775bd67b5e0f4f",
+      "size": 3661
+    },
+    "data/maps/generic/dynamic2.ide": {
+      "hash": "d5e98da76e714cc8f22140fbe16011f708a6ca4d",
+      "size": 10509
+    },
+    "data/maps/generic/procobj.ide": {
+      "hash": "e118613b608b9c236b005152dfedbb0fed2d5027",
+      "size": 4755
+    },
+    "data/maps/generic/dynamic.ide": {
+      "hash": "f325f7c32f04c57d09cf9bd43e8606473e358669",
+      "size": 4611
+    },
+    "data/maps/generic/vegepart.ide": {
+      "hash": "cb01bc2a7942089f9fa92e71bafee321e9607ff2",
+      "size": 8062
+    },
+    "data/maps/generic/barriers.ide": {
+      "hash": "42416db11f71aa7e4d7dbb07c52b88d7fb7a5531",
+      "size": 1437
+    },
+    "data/maps/generic/multiobj.ide": {
+      "hash": "40dec556c3311c3f473e0252ec5d4d030befbe24",
+      "size": 5020
+    },
+    "data/maps/Audiozon.ipl": {
+      "hash": "c18484e6269e2ed954bf0f19a47ffe5040169434",
+      "size": 10802
+    },
+    "data/maps/paths.ipl": {
+      "hash": "50aa155acdec67078a45c55f6c77c136ff2d362a",
+      "size": 2658607
+    },
+    "data/maps/interior/gen_int3.ide": {
+      "hash": "836e8846211357fd1289e16074faaa344551c746",
+      "size": 3252
+    },
+    "data/maps/interior/gen_int2.ide": {
+      "hash": "d1454a322f537f6f44130b2c50e976ff4d62e90c",
+      "size": 10941
+    },
+    "data/maps/interior/propext.ide": {
+      "hash": "201e2ff6ecefbfb49cdc28907f223f6e9e9b8afd",
+      "size": 2340
+    },
+    "data/maps/interior/gen_int1.ide": {
+      "hash": "f9228615fec4a3aaa6f6161eca60615dd027f535",
+      "size": 2747
+    },
+    "data/maps/interior/gen_int5.ide": {
+      "hash": "94e8decb4da5f86fbf1a65e2ceba34f6ffedc3c0",
+      "size": 4682
+    },
+    "data/maps/interior/savehous.ide": {
+      "hash": "3864c6cf5522d1016040d42f7fac575e06f92f2b",
+      "size": 1724
+    },
+    "data/maps/interior/gen_intb.ide": {
+      "hash": "aa8723ebab4d8eca6ca57b96cb799bb87fb19fc2",
+      "size": 5459
+    },
+    "data/maps/interior/gen_int4.ide": {
+      "hash": "98c0faad4b1f28fd516b5efbf913ed24c09880ef",
+      "size": 2323
+    },
+    "data/maps/interior/int_LA.ipl": {
+      "hash": "15f5891857ffbf1e7155b15c47b74dae8a3cb8b8",
+      "size": 1312
+    },
+    "data/maps/interior/stadint.ide": {
+      "hash": "9f6b420a0ce6e5efaf03374808f48ce78755f09a",
+      "size": 2851
+    },
+    "data/maps/interior/int_veg.ipl": {
+      "hash": "2c1826c9d31d1cdc106a31f65cafa6299328c4a9",
+      "size": 5299
+    },
+    "data/maps/interior/int_cont.ipl": {
+      "hash": "8e51b3666ce7058b4b72e153a962078235ab8a5e",
+      "size": 910
+    },
+    "data/maps/interior/int_SF.ipl": {
+      "hash": "a7804f09a3347f45005c61cffc5318ba84e1c147",
+      "size": 1334
+    },
+    "data/maps/interior/gen_intb.ipl": {
+      "hash": "e69340bb416d2fb0c33857ad728338d47fe291ea",
+      "size": 1626
+    },
+    "data/maps/interior/props.ide": {
+      "hash": "972857494a3d20d0072ee3a03562d2a36ba07223",
+      "size": 26326
+    },
+    "data/maps/interior/gen_int4.ipl": {
+      "hash": "7ffb7d4a58df25026cdcf0de2d59095090aa10b0",
+      "size": 1185
+    },
+    "data/maps/interior/gen_int5.ipl": {
+      "hash": "9b84f71fb63a94559d488e0a629d1d67410238af",
+      "size": 2988
+    },
+    "data/maps/interior/savehous.ipl": {
+      "hash": "12992c31030236891ae980e2f77f69617d058e39",
+      "size": 2959
+    },
+    "data/maps/interior/int_LA.ide": {
+      "hash": "52dba6968d7ef8a7df872b5cf54d31d1718f78ff",
+      "size": 6002
+    },
+    "data/maps/interior/stadint.ipl": {
+      "hash": "1d2c6d1cdb45d10ab5725d8dabdede4c013d4808",
+      "size": 6299
+    },
+    "data/maps/interior/gen_int2.ipl": {
+      "hash": "aff13c4a1ffd01488bcaf984394881a1299cc974",
+      "size": 1683
+    },
+    "data/maps/interior/props2.ide": {
+      "hash": "4ff35761739df882e2a169b15c64a05691a51010",
+      "size": 21174
+    },
+    "data/maps/interior/gen_int3.ipl": {
+      "hash": "b736e3705e7c335ac66f3de790889b1559b4f94f",
+      "size": 2091
+    },
+    "data/maps/interior/gen_int1.ipl": {
+      "hash": "89381d81884d8c7e566e32ec94f78bc588f9b2b9",
+      "size": 21074
+    },
+    "data/maps/interior/int_cont.ide": {
+      "hash": "03dd12532e138938eb56433208d3967991857b4c",
+      "size": 385
+    },
+    "data/maps/interior/int_veg.ide": {
+      "hash": "299c0fc4bfbdb3e6fd7413d0e2141ebe41489442",
+      "size": 4684
+    },
+    "data/maps/interior/int_SF.ide": {
+      "hash": "b0632e0aff8f20c193491b3a6a53bdefb875ec63",
+      "size": 1260
+    },
+    "data/maps/LA/LAn.ipl": {
+      "hash": "6bcd0c74b006ef6c50d493a085a04343a52e9da0",
+      "size": 14264
+    },
+    "data/maps/LA/LaWn.ipl": {
+      "hash": "f25824d23a5e8766b6d1400f626701d2451032f5",
+      "size": 24330
+    },
+    "data/maps/LA/LAe2.ide": {
+      "hash": "16b79b54aa5e52744e7abaa180d2ac59d2b3f790",
+      "size": 21906
+    },
+    "data/maps/LA/LAs2.ipl": {
+      "hash": "1db6483f61584c527b511cf93ce8357632612475",
+      "size": 38441
+    },
+    "data/maps/LA/LAw.ide": {
+      "hash": "9f8e0fcf7aff37ccfa034bf1cc308dba41215ba6",
+      "size": 9411
+    },
+    "data/maps/LA/LAn2.ide": {
+      "hash": "620d54351af569990d66e99a3a63fce9b0874b0f",
+      "size": 9565
+    },
+    "data/maps/LA/LAhills.ide": {
+      "hash": "09ea5763f1168e4bea8f65f87a6fa9c5d8e0c121",
+      "size": 10601
+    },
+    "data/maps/LA/LAs.ide": {
+      "hash": "fd6a08368fd529b0437c6e3d6651cccc51116d3e",
+      "size": 12575
+    },
+    "data/maps/LA/LAw2.ide": {
+      "hash": "1dd153aaa2ba88c452d12be7717fe4054f717a54",
+      "size": 11060
+    },
+    "data/maps/LA/LAe.ide": {
+      "hash": "ca936d4dc7893c22ffcdecfe5e2c96fc520db4a9",
+      "size": 12249
+    },
+    "data/maps/LA/LAn.ide": {
+      "hash": "091e87379d5294255ba956df80a7bb58708e922e",
+      "size": 11107
+    },
+    "data/maps/LA/LaWn.ide": {
+      "hash": "bacf9bdb5da2f67761c265775354de6f0a58718d",
+      "size": 13092
+    },
+    "data/maps/LA/LAe2.ipl": {
+      "hash": "8fef5631ddc29922c3db8262631a9d57f1b2388c",
+      "size": 33651
+    },
+    "data/maps/LA/LAn2.ipl": {
+      "hash": "ff1aad43821b6723972e0cb8c0691d3d95363550",
+      "size": 13185
+    },
+    "data/maps/LA/LAhills.ipl": {
+      "hash": "ffe0d1e6344b7417388f666c3636f52b286fe1d2",
+      "size": 34506
+    },
+    "data/maps/LA/LAe.ipl": {
+      "hash": "7b35b00c918091298a94a21ff297491d0b9330d3",
+      "size": 27328
+    },
+    "data/maps/LA/LAs.ipl": {
+      "hash": "9fa9b101a987b2ee13cf470691dc37d6990052b0",
+      "size": 22414
+    },
+    "data/maps/LA/LAxref.ide": {
+      "hash": "a1d0c9fe4fb18478cd94ccec49dfdc4e80c8933e",
+      "size": 10473
+    },
+    "data/maps/LA/LAw2.ipl": {
+      "hash": "22cecccd8f063eb43f4c29b516724ff3c1190d07",
+      "size": 18232
+    },
+    "data/maps/LA/LAw.ipl": {
+      "hash": "1c99b6f4336915f353a2a6c8894ec83ded16c9b4",
+      "size": 15105
+    },
+    "data/maps/LA/LAs2.ide": {
+      "hash": "5e45041c6340cb7883c4d92d7d6718f9ad7aaf30",
+      "size": 12364
+    },
+    "data/maps/cull.ipl": {
+      "hash": "3b53c352b7d41c1a141a0d7099ef4b1a61831265",
+      "size": 104318
+    },
+    "data/maps/leveldes/seabed.ide": {
+      "hash": "5ba36ac78ef90788c8816a4cce841867d8e932bc",
+      "size": 12039
+    },
+    "data/maps/leveldes/leveldes.ide": {
+      "hash": "1d665bdd621dbc13cbf7e2b2dbdb336449f4f11d",
+      "size": 360
+    },
+    "data/maps/leveldes/levelmap.ide": {
+      "hash": "87ea89e009878b63295e70fe1bf33ace354241d4",
+      "size": 3194
+    },
+    "data/maps/leveldes/seabed.ipl": {
+      "hash": "515cde21c8e91d3197b422f3410404a19f852298",
+      "size": 23342
+    },
+    "data/maps/leveldes/leveldes.ipl": {
+      "hash": "00b553e9f7c7596bdb38f804e516166a2cc2b9e8",
+      "size": 165
+    },
+    "data/maps/leveldes/levelmap.ipl": {
+      "hash": "7db7cb06ca017a16c92854b32c7495e6629fb511",
+      "size": 4675
+    },
+    "data/maps/leveldes/levelxre.ide": {
+      "hash": "5f5a43c12533f3f575e0d544370d9c479e28a45e",
+      "size": 9897
+    },
+    "data/maps/country/countryw.ipl": {
+      "hash": "eb9bddcd1c57431b5c3ef89b50cd7e4b05554bad",
+      "size": 35057
+    },
+    "data/maps/country/countryS.ipl": {
+      "hash": "f7241a23b3fd9b0f644a43c97ea7aca9cfbcf13d",
+      "size": 33835
+    },
+    "data/maps/country/countrye.ipl": {
+      "hash": "1b2938a36a8a7c35fcd2f742af79d10c46ae7dbe",
+      "size": 49301
+    },
+    "data/maps/country/counxref.ide": {
+      "hash": "e146716755b8b92a3b881b216eecc400d0db62cf",
+      "size": 8493
+    },
+    "data/maps/country/countryN.ide": {
+      "hash": "82444c011f05be6dd56d33d19b74d3770e41c8e1",
+      "size": 11308
+    },
+    "data/maps/country/countn2.ide": {
+      "hash": "a4305ebcfce1ac7ed7c594435e7171945cea311e",
+      "size": 35439
+    },
+    "data/maps/country/countrye.ide": {
+      "hash": "7d5b25405872596249a112e4c1d08a317ea94081",
+      "size": 34529
+    },
+    "data/maps/country/countryS.ide": {
+      "hash": "f16300d9af0802e7ba91a0d50ac9d6d1ce23356f",
+      "size": 18450
+    },
+    "data/maps/country/countryW.ide": {
+      "hash": "cc2e5f1911b3ca706cc9d626ee2e0021ab875d12",
+      "size": 19704
+    },
+    "data/maps/country/countryN.ipl": {
+      "hash": "4343a96dff1dc0af1c07143e1085f94d309ca10a",
+      "size": 14407
+    },
+    "data/maps/country/countn2.ipl": {
+      "hash": "cdd206be9435f120f6c5866ab58e78c8db10a4f1",
+      "size": 41665
+    },
+    "data/maps/occlu.ipl": {
+      "hash": "2c87d230461851f748d48bd2b0a81a7284ea1616",
+      "size": 1012
+    },
+    "data/carcols.dat": {
+      "hash": "08f037e99850e2e84c15170098f29b84c3df2ba3",
+      "size": 15361
+    },
+    "data/melee.dat": {
+      "hash": "7ce426ff0e91863d63fb54cdebbfcb8bf26e47e3",
+      "size": 6306
+    },
+    "data/gta_quick.dat": {
+      "hash": "495a274a7aa326b24d2f6affede181ed41c7509d",
+      "size": 1079
+    },
+    "data/gridref.dat": {
+      "hash": "57d88132ccc4171fea1c95f46c22770fbde8502c",
+      "size": 1498
+    },
+    "data/surface.dat": {
+      "hash": "93043b25a77e5beb244bd7901a96403374d810d5",
+      "size": 576
+    },
+    "data/clothes.dat": {
+      "hash": "6465512c6eef7d05c0582b8a6539fa60fef44aa2",
+      "size": 5317
+    },
+    "data/cargrp.dat": {
+      "hash": "990c7d078b15b285ac89392eec13f6a89c639f39",
+      "size": 3963
+    },
+    "data/vehicles.ide": {
+      "hash": "b20dcf4f54ae39d41503002e201b398366de6127",
+      "size": 21093
+    },
+    "data/txdcut.ide": {
+      "hash": "31683ba0bee92987061df12ea2f3e26aa933166b",
+      "size": 478
+    },
+    "data/statdisp.dat": {
+      "hash": "85221f4551b45cf6686402426011bbff3a8567c5",
+      "size": 7333
+    },
+    "data/polydensity.dat": {
+      "hash": "96536cb561cfcc35c4c287ee35a3fc40bff5b026",
+      "size": 288020
+    },
+    "data/water1.dat": {
+      "hash": "7c99ba72a1f2a6fad03aa2a9731691d572aed701",
+      "size": 60063
+    },
+    "data/animgrp.dat": {
+      "hash": "d731d8cf855f297b8a464065f7f59833146c39c2",
+      "size": 3096
+    },
+    "data/Paths/NODES36.DAT": {
+      "hash": "9de74360d475886b4906bb381be207002b21674e",
+      "size": 52546
+    },
+    "data/Paths/NODES22.DAT": {
+      "hash": "899c465c024cb72bfeb9e36a8b44790ccd8c4566",
+      "size": 120014
+    },
+    "data/Paths/NODES23.DAT": {
+      "hash": "e5f819eff7bda7483ba25a289702e3493a929cdc",
+      "size": 87652
+    },
+    "data/Paths/NODES37.DAT": {
+      "hash": "d4e17dd49788246647d2502632927b9d7156848d",
+      "size": 46690
+    },
+    "data/Paths/NODES9.DAT": {
+      "hash": "4b5adfe3d8e9b3f6381d40e22af2afc5103aad7a",
+      "size": 32516
+    },
+    "data/Paths/tracks3.dat": {
+      "hash": "b980ef803a1c4cc58c2e59f9dc722884600a7e24",
+      "size": 8328
+    },
+    "data/Paths/NODES21.DAT": {
+      "hash": "1fbf7369da374dfdbdcb33cafa1f5ede083c8900",
+      "size": 138482
+    },
+    "data/Paths/NODES35.DAT": {
+      "hash": "672fe34899b7cdf3904bca1fbdcf5d1a42c95998",
+      "size": 28442
+    },
+    "data/Paths/NODES34.DAT": {
+      "hash": "1dc0ffef3bba0ecf2b024ece5b9db9bc452109c7",
+      "size": 50594
+    },
+    "data/Paths/NODES20.DAT": {
+      "hash": "e66915634df33becea7ac45c5d53d3728d193ef9",
+      "size": 76652
+    },
+    "data/Paths/tracks2.dat": {
+      "hash": "3b2ae7604c1b5f18a69d89491e13afe6107f386b",
+      "size": 1892
+    },
+    "data/Paths/NODES8.DAT": {
+      "hash": "6d7f400ae89b91457f378d7be03c04241746d33e",
+      "size": 32112
+    },
+    "data/Paths/NODES18.DAT": {
+      "hash": "245c276facfd62c0e98ed0f43531641b8c476993",
+      "size": 17234
+    },
+    "data/Paths/NODES24.DAT": {
+      "hash": "4e2dc7dd5182739442fbe0763206fcc0a467de3d",
+      "size": 94334
+    },
+    "data/Paths/NODES30.DAT": {
+      "hash": "6641250ba2de034777e42c0aeccbe6aba47f9dc7",
+      "size": 20098
+    },
+    "data/Paths/NODES31.DAT": {
+      "hash": "934aa156074b5a2df0e99f8d02bdaabd01fe50eb",
+      "size": 22552
+    },
+    "data/Paths/NODES25.DAT": {
+      "hash": "3e07e823f37f7d7980ec5355a4fbd2ba4d3c3677",
+      "size": 95160
+    },
+    "data/Paths/NODES19.DAT": {
+      "hash": "e674caa78cf415005ce694eda33bf018f2236ff9",
+      "size": 39862
+    },
+    "data/Paths/train.dat": {
+      "hash": "c571b42ceee7f3d9d626eb86cfc73ba345f48d72",
+      "size": 2476
+    },
+    "data/Paths/NODES33.DAT": {
+      "hash": "18f5befd580f1aa53773358e91a981d766eedb05",
+      "size": 113784
+    },
+    "data/Paths/NODES27.DAT": {
+      "hash": "c981d5177291fde4cc1fca38858f6838576b1351",
+      "size": 26342
+    },
+    "data/Paths/NODES26.DAT": {
+      "hash": "3e234c9b9cffed18b0dd1949584b5e67134953c3",
+      "size": 55378
+    },
+    "data/Paths/NODES32.DAT": {
+      "hash": "800cf9a42b08700cc93d44aeb87d99b4e5b75bdb",
+      "size": 126744
+    },
+    "data/Paths/tracks4.dat": {
+      "hash": "e8810adde5267d0ce6502eb8dc03045ef8e953cc",
+      "size": 18347
+    },
+    "data/Paths/NODES55.DAT": {
+      "hash": "632e146a12fe9649a83734a03fe63b3aa93eff5c",
+      "size": 84904
+    },
+    "data/Paths/NODES41.DAT": {
+      "hash": "45891581fa4d066aac8db79ce0512526d1db3c38",
+      "size": 141844
+    },
+    "data/Paths/NODES40.DAT": {
+      "hash": "8beb38b7c79f4adcd9735ecf3e295c151f9c4489",
+      "size": 115172
+    },
+    "data/Paths/NODES54.DAT": {
+      "hash": "6bc27fd456a391f6023f9ce6ea0df4b97239541b",
+      "size": 127874
+    },
+    "data/Paths/NODES42.DAT": {
+      "hash": "af27e5f35d30ca65a6cfc01093b3c1afe9509926",
+      "size": 35716
+    },
+    "data/Paths/NODES56.DAT": {
+      "hash": "04b4939956018c1aedef9234e8fdb0c021991775",
+      "size": 33350
+    },
+    "data/Paths/NODES57.DAT": {
+      "hash": "2f97c8d8ffafae50d06a208721ef6c6a93fdcbeb",
+      "size": 19212
+    },
+    "data/Paths/NODES43.DAT": {
+      "hash": "db7052502cb51165a415e1d978e69bb6621816c8",
+      "size": 45006
+    },
+    "data/Paths/NODES47.DAT": {
+      "hash": "e587f8e0ab8194332a31809350de601b7d48f2ab",
+      "size": 85050
+    },
+    "data/Paths/NODES53.DAT": {
+      "hash": "510ef1fb29cdd351330d8065e83b88effc350514",
+      "size": 65650
+    },
+    "data/Paths/NODES52.DAT": {
+      "hash": "6ff750643cea7de4b70052592937884a3400b035",
+      "size": 37934
+    },
+    "data/Paths/NODES46.DAT": {
+      "hash": "c76dabc2348c4b59f6c728302339ff9bb8b26584",
+      "size": 123954
+    },
+    "data/Paths/NODES50.DAT": {
+      "hash": "6db8ad2e60bd8ba980ab4654ebacbd5314dc7b56",
+      "size": 32076
+    },
+    "data/Paths/NODES44.DAT": {
+      "hash": "016dc563cf0dac09faf83e9524a81c5de2b5a2e2",
+      "size": 49032
+    },
+    "data/Paths/NODES45.DAT": {
+      "hash": "5f38eb2ce3699a963940a04e9d86dcbc8d2ce555",
+      "size": 40270
+    },
+    "data/Paths/NODES51.DAT": {
+      "hash": "009cf5445f6187485f869c8b8326a76abbcaa95f",
+      "size": 18704
+    },
+    "data/Paths/NODES60.DAT": {
+      "hash": "86ae40a62833c182d9009eba8310ba49de6dc06e",
+      "size": 14464
+    },
+    "data/Paths/ROADBLOX.DAT": {
+      "hash": "21f74c610acf72bb45e7d231f8a102fa4f7c0ed9",
+      "size": 1304
+    },
+    "data/Paths/NODES48.DAT": {
+      "hash": "abdc124a7e892ef2b0ba3943d717a5ecc1a093cc",
+      "size": 26170
+    },
+    "data/Paths/NODES49.DAT": {
+      "hash": "65617b511edf2f165de9f8e75ee17d2d8c0fd532",
+      "size": 14948
+    },
+    "data/Paths/NODES61.DAT": {
+      "hash": "82e5ebd01ecb89dd83cd1fe365a1b97867e193e2",
+      "size": 60284
+    },
+    "data/Paths/train2.dat": {
+      "hash": "7fb0f23e3db4d07362ed6580d5974e803d50d4b3",
+      "size": 4232
+    },
+    "data/Paths/NODES63.DAT": {
+      "hash": "642d1e0b52a410618c4938ad9674f2d9219fa8ec",
+      "size": 71530
+    },
+    "data/Paths/NODES62.DAT": {
+      "hash": "6a9b4b6691c4a94a83ad54e018eae8e23957a1ac",
+      "size": 70972
+    },
+    "data/Paths/NODES59.DAT": {
+      "hash": "283e01964c52fd6a7e79db67c19e0595c39cd83b",
+      "size": 28114
+    },
+    "data/Paths/NODES58.DAT": {
+      "hash": "7b4baafb5854fb8cbd5700b3a92d909f799f15ed",
+      "size": 18858
+    },
+    "data/Paths/NODES3.DAT": {
+      "hash": "da8b782bdb32990ff961f03f467e19c7a9a237d9",
+      "size": 12438
+    },
+    "data/Paths/NODES17.DAT": {
+      "hash": "d9db532f3153f63a7282f3dd6f0a2d01a41cd14f",
+      "size": 36952
+    },
+    "data/Paths/NODES16.DAT": {
+      "hash": "1845f6d560fea251257bcd2ea2a9230ebf5d0176",
+      "size": 19250
+    },
+    "data/Paths/NODES2.DAT": {
+      "hash": "e1292744fdbdb92be4e75dc581fd6838c5e06124",
+      "size": 11396
+    },
+    "data/Paths/NODES0.DAT": {
+      "hash": "a53059949a410eaf5f73cdad0ba07419dc38baed",
+      "size": 13458
+    },
+    "data/Paths/NODES14.DAT": {
+      "hash": "74913b480e456e6f1b359c13e99bea70b7811cc8",
+      "size": 121566
+    },
+    "data/Paths/NODES28.DAT": {
+      "hash": "536dd3fa1cc1f49233ed9d3581cb7a8e70212763",
+      "size": 84224
+    },
+    "data/Paths/NODES29.DAT": {
+      "hash": "1398f2ce1d3c69cbf39a247d9a816271d8c4a7a6",
+      "size": 36556
+    },
+    "data/Paths/NODES15.DAT": {
+      "hash": "1d16e271c81ee65f2354fca0a6ce2f9217d98571",
+      "size": 93802
+    },
+    "data/Paths/NODES1.DAT": {
+      "hash": "36ea6cbf1bf0e4911eed3c704ce0f9bf335bb1fe",
+      "size": 35996
+    },
+    "data/Paths/NODES5.DAT": {
+      "hash": "346d343e35c73d47e1926be0aa990e5abe9b71ec",
+      "size": 16804
+    },
+    "data/Paths/NODES39.DAT": {
+      "hash": "f2c6c84aef3523547b634dca2488dc7252456175",
+      "size": 42486
+    },
+    "data/Paths/NODES11.DAT": {
+      "hash": "e96b889561060a032810dc8fc17303ec848f53a8",
+      "size": 28886
+    },
+    "data/Paths/spath0.dat": {
+      "hash": "163f5476fe852b7fe6f40e8c3fe1d13640163de2",
+      "size": 1886
+    },
+    "data/Paths/NODES10.DAT": {
+      "hash": "d0be21fe6c78479edd262cca9355fdf76f76ae90",
+      "size": 15100
+    },
+    "data/Paths/NODES38.DAT": {
+      "hash": "c44e23777f50a7d0ff513ab945e1798dd6ca867e",
+      "size": 59616
+    },
+    "data/Paths/NODES4.DAT": {
+      "hash": "a7ef78d6e5aab65e92071ca28366c131d93121d8",
+      "size": 5402
+    },
+    "data/Paths/tracks.dat": {
+      "hash": "198455b880de569c6bc8520705ac0b692ff2eae5",
+      "size": 25474
+    },
+    "data/Paths/NODES6.DAT": {
+      "hash": "615b594ae067174315d8c0ed231d9293d4accf29",
+      "size": 50642
+    },
+    "data/Paths/carrec.img": {
+      "hash": "597045841961e7d4adb0746f98e6c6092c409010",
+      "size": 2357248
+    },
+    "data/Paths/NODES12.DAT": {
+      "hash": "b0b26cfc2c3a9872bd96a006e11cbbf402310356",
+      "size": 110342
+    },
+    "data/Paths/NODES13.DAT": {
+      "hash": "3bec4d0668985b83932c6b9a89ece7efd87616fc",
+      "size": 117488
+    },
+    "data/Paths/NODES7.DAT": {
+      "hash": "01744bbd7b9fa3e8082287fef29f425f697ef2bc",
+      "size": 24464
+    },
+    "data/shopping.dat": {
+      "hash": "7b1cebb652b0317d5842606729bb5b31a1035369",
+      "size": 46875
+    },
+    "data/peds.ide": {
+      "hash": "91af0203a563b53b300434dff5f97ea6a2b49188",
+      "size": 33401
+    },
+    "data/procobj.dat": {
+      "hash": "e186e89d1269a15ee235cb6cef67d12a999bea98",
+      "size": 10019
+    },
+    "data/script/script.img": {
+      "hash": "169310f78b8a77e6d6fc65e682a68f2a2f6c5f63",
+      "size": 581632
+    },
+    "data/script/main.scm": {
+      "hash": "abeeba49669359c57b7ef2888c7263117f488cea",
+      "size": 3079599
+    },
+    "data/water.dat": {
+      "hash": "a6b909879d5d2126c183eae8816ba80aece2df84",
+      "size": 70099
+    },
+    "data/pedgrp.dat": {
+      "hash": "70d904ed429c056aa3e07500c8b1d6c803ff8cfe",
+      "size": 5792
+    },
+    "data/handling.cfg": {
+      "hash": "2324de99ad3023ccc222f627aaa39769f29bc9d4",
+      "size": 64532
+    },
+    "data/numplate.dat": {
+      "hash": "07c28588e44aa27da250c6c9599ceefeec37b727",
+      "size": 1145
+    },
+    "data/gta.dat": {
+      "hash": "6cea5702d04793c77ed9ed5eea83e1d89abee090",
+      "size": 3776
+    },
+    "data/timecycp.dat": {
+      "hash": "cb0f86c5b96fe004a4536af04f3b9617f61fe6d9",
+      "size": 40520
+    },
+    "data/popcycle.dat": {
+      "hash": "3f381fbb78ec592e0d5283b05df37d032cfc8707",
+      "size": 127108
+    },
+    "data/pedstats.dat": {
+      "hash": "660ee6274b4f3c8323b4d22b85e006f3543bf99f",
+      "size": 3604
+    },
+    "data/default.ide": {
+      "hash": "2bb79de5fefd15a305ff81e32bdf0ebcd2602e35",
+      "size": 4679
+    },
+    "data/object.dat": {
+      "hash": "f41e2c3e62a9b7c8a8cded8e3e3850e0f3804219",
+      "size": 126118
+    },
+    "data/weapon.dat": {
+      "hash": "f327a789562355d337bfe5b28e65b1b0d18c824d",
+      "size": 11585
+    },
+    "data/Icons/saicon3.ICN": {
+      "hash": "e6627a0eef7f631bb03ad79b977a2e9fdc137933",
+      "size": 65800
+    },
+    "data/Icons/saicon2.ICN": {
+      "hash": "e6627a0eef7f631bb03ad79b977a2e9fdc137933",
+      "size": 65800
+    },
+    "data/Icons/bin.ico": {
+      "hash": "3115cfc53d0ae8ab330fd7a117b526405d9e1b27",
+      "size": 766
+    },
+    "data/Icons/saicon.ICN": {
+      "hash": "e6627a0eef7f631bb03ad79b977a2e9fdc137933",
+      "size": 65800
+    },
+    "data/plants.dat": {
+      "hash": "5576de10ab4b7a9e984f474137a392fab8378989",
+      "size": 9887
+    },
+    "data/fonts.dat": {
+      "hash": "a5e4d5222b1d7ddb8365cff496680995976c1c78",
+      "size": 3316
+    },
+    "data/carmods.dat": {
+      "hash": "f197f70bbc9b4bd8f3ba5720577e631d399a714a",
+      "size": 9110
+    },
+    "data/map.zon": {
+      "hash": "4fa511361cb42b2d5efc9bab7f83eeb1b1b9cfaf",
+      "size": 436
+    },
+    "data/animviewer.dat": {
+      "hash": "936c93b25bd976fb3f94f12c6cd5c8dc67a01dfd",
+      "size": 1807
+    },
+    "data/surfaud.dat": {
+      "hash": "c0dac3d24a8ac717138bc2bc6fc622a9be2f774a",
+      "size": 6530
+    },
+    "data/Decision/Cop.ped": {
+      "hash": "c10a1431f36dc1f546d248a5d0b1099303056e33",
+      "size": 2354
+    },
+    "data/Decision/MISSION.grp": {
+      "hash": "ac05ac5e9c1ec026f9e237f48dbf224c917781cf",
+      "size": 530
+    },
+    "data/Decision/Allowed/Cop.ped": {
+      "hash": "95ee313f613a8db1b7894cefd81399db46119bb5",
+      "size": 4908
+    },
+    "data/Decision/Allowed/MISSION.grp": {
+      "hash": "ee687bed20b5028494a8812aff567b2b5413487b",
+      "size": 2758
+    },
+    "data/Decision/Allowed/RANDOM2.grp": {
+      "hash": "3fb224d401d9da4f72596ecdb3b93afdd88c6bfd",
+      "size": 4623
+    },
+    "data/Decision/Allowed/GangMbr.ped": {
+      "hash": "9f1fda37546db5f002ec1dd02e1114553811e33f",
+      "size": 6194
+    },
+    "data/Decision/Allowed/R_Weak.ped": {
+      "hash": "240977dd45c01fcc3f9852106ff91beef8781d10",
+      "size": 6289
+    },
+    "data/Decision/Allowed/m_steal.ped": {
+      "hash": "540e2676aba6f6890ca5ca60427cc74a0fe90c8a",
+      "size": 3663
+    },
+    "data/Decision/Allowed/m_norm.ped": {
+      "hash": "bc312280fc9e547663e29a8f7e774741661e6c09",
+      "size": 4142
+    },
+    "data/Decision/Allowed/R_Norm.ped": {
+      "hash": "4cc9f919c2da7e8d96bc56ce49f2344c0e29a04d",
+      "size": 6450
+    },
+    "data/Decision/Allowed/m_empty.ped": {
+      "hash": "f25453a1de08522697c6c2d14112ed8beb2baf6d",
+      "size": 982
+    },
+    "data/Decision/Allowed/m_weak.ped": {
+      "hash": "ef72ce321eaaedbeedbc627d754d2374b01aa81b",
+      "size": 4062
+    },
+    "data/Decision/Allowed/m_tough.ped": {
+      "hash": "83ba6de5cba262178ffed37affee5ef09036eae2",
+      "size": 3980
+    },
+    "data/Decision/Allowed/Fireman.ped": {
+      "hash": "6ac77cde3980b2a24c2e5654c6216c96c8a55d3f",
+      "size": 4435
+    },
+    "data/Decision/Allowed/RANDOM.grp": {
+      "hash": "e5df340f36584cc050f3447bd88d43d59864606a",
+      "size": 4623
+    },
+    "data/Decision/Allowed/Indoors.ped": {
+      "hash": "41b51b5bc9d5f07cfde045d95e3fb299c17441ad",
+      "size": 2809
+    },
+    "data/Decision/Allowed/RANDOM.ped": {
+      "hash": "bc312280fc9e547663e29a8f7e774741661e6c09",
+      "size": 4142
+    },
+    "data/Decision/Allowed/m_plyr.ped": {
+      "hash": "0dbe8ce33c657c54b175528d04d04aace8b91f91",
+      "size": 2000
+    },
+    "data/Decision/Allowed/R_Tough.ped": {
+      "hash": "55448d472e2e5a61397f980c412cad4d3cb5c5da",
+      "size": 6378
+    },
+    "data/Decision/BLANK.ped": {
+      "hash": "7a80cfd082c2128fb738aa676b717a6b71f96ee1",
+      "size": 621
+    },
+    "data/Decision/andyd/ADtemp.ped": {
+      "hash": "ba16473360c095183f916e07629533f7816bdaa6",
+      "size": 3725
+    },
+    "data/Decision/andyd/ADgrp.grp": {
+      "hash": "90825b818b8d6ea7192017b83d1aa1bab466bd35",
+      "size": 2063
+    },
+    "data/Decision/GangMbr.ped": {
+      "hash": "83704d8750eba1d74d1ab1a56899210c7604e79e",
+      "size": 3067
+    },
+    "data/Decision/m_norm.ped": {
+      "hash": "b8023f8c1a39705db456a79dd917b745ed46dcec",
+      "size": 2085
+    },
+    "data/Decision/FLAT.ped": {
+      "hash": "e9b849bf308670b4fbc89a2a133e94c259c635cf",
+      "size": 399
+    },
+    "data/Decision/m_empty.ped": {
+      "hash": "a199ffa39be7c3c7fe40396b27ef54a7809e7a5c",
+      "size": 654
+    },
+    "data/Decision/PedEvent.txt": {
+      "hash": "2e9c3117b2e3aa6b411c51d4dbd7152a05320cad",
+      "size": 1298
+    },
+    "data/Decision/m_weak.ped": {
+      "hash": "b8023f8c1a39705db456a79dd917b745ed46dcec",
+      "size": 2085
+    },
+    "data/Decision/MISSION.ped": {
+      "hash": "89815aaf3e6f4738311b217e02cb33438656465d",
+      "size": 891
+    },
+    "data/Decision/ChrisM/CMblnk.ped": {
+      "hash": "b9a95206820d89c89a82c9454cfcb14040f5f47e",
+      "size": 397
+    },
+    "data/Decision/ChrisM/m_std_cm.ped": {
+      "hash": "85a2d917edf70393ed11a785136eb9b617459df4",
+      "size": 1071
+    },
+    "data/Decision/m_tough.ped": {
+      "hash": "b8023f8c1a39705db456a79dd917b745ed46dcec",
+      "size": 2085
+    },
+    "data/Decision/david/hei2_sc.ped": {
+      "hash": "ec95204e4ca6550a2411fa59e2dddcad19a06f08",
+      "size": 403
+    },
+    "data/Decision/david/dam_sec.ped": {
+      "hash": "eac77c01e0e890dde3a9f6a5c8f171d2baf36295",
+      "size": 677
+    },
+    "data/Decision/chris/maf5.ped": {
+      "hash": "d271107b54ee0632ddd800e37df6fbedcd6e65d6",
+      "size": 1130
+    },
+    "data/Decision/chris/ryder3.ped": {
+      "hash": "2b988d969deb2d10dc201c85823420fa17a91a91",
+      "size": 1170
+    },
+    "data/Decision/Imran/std2_is.ped": {
+      "hash": "7b7a61a6a878c5b2e1d47aeb125269b62edecf31",
+      "size": 633
+    },
+    "data/Decision/Imran/sci1_is.ped": {
+      "hash": "bc4d004f98ddf757af24a1a707f399cd0963a0bd",
+      "size": 672
+    },
+    "data/Decision/Imran/std1_is.ped": {
+      "hash": "6d57effb811e0df9f3862484e2b1970d5a72a48e",
+      "size": 383
+    },
+    "data/Decision/m_std.ped": {
+      "hash": "de1466c3db134d8c9317144f7390b7e6beba34ec",
+      "size": 1487
+    },
+    "data/Decision/Craig/crack1.ped": {
+      "hash": "e9c18dde6efd59ff8a1252bcf8ab43af98688537",
+      "size": 796
+    },
+    "data/Decision/GROVE.ped": {
+      "hash": "93af656c9a63a2ef3c5dd178b1a7e83fd51844e6",
+      "size": 393
+    },
+    "data/Decision/Indoors.ped": {
+      "hash": "257e0fcda6d7c7d4049ddd3711c5e7d5cbdbfac8",
+      "size": 1928
+    },
+    "data/Decision/m_infrm.ped": {
+      "hash": "6eecc1049880a77a751f42e9b8d09bc7763097e7",
+      "size": 1539
+    },
+    "data/default.dat": {
+      "hash": "1ced43455b685ad4cf7fef835cb395939e5cdb26",
+      "size": 577
+    },
+    "data/ped.dat": {
+      "hash": "e54dce795a16f55be6726efd6fde19c07b279a99",
+      "size": 1276
+    },
+    "data/furnitur.dat": {
+      "hash": "4c0c0409adef67472ef2509c38ba286ca74d2a54",
+      "size": 16480
+    },
+    "data/main.sc": {
+      "hash": "f9c12911463291fd07a08a6587b0c3ac1935e083",
+      "size": 6020
+    },
+    "data/ar_stats.dat": {
+      "hash": "4f82f38aa5816a76c8ca46932e14cd4c5d63f239",
+      "size": 3593
+    },
+    "data/AudioEvents.txt": {
+      "hash": "2d932fd2fd3ee4fa9fbe5198ccda920e362e4ec1",
+      "size": 166161
+    },
+    "data/timecyc.dat": {
+      "hash": "7e62208e249460ea97439d7098146e895abd8b8b",
+      "size": 40037
+    },
+    "data/info.zon": {
+      "hash": "cb4cd557fdb02cd6cdfab4745a2d2d5d268b1cb0",
+      "size": 28139
+    },
+    "data/surfinfo.dat": {
+      "hash": "92eb973c898368b31b1a7172d417528073778310",
+      "size": 28106
+    },
+    "samp.saa": {
+      "hash": "5361378143beee5086935f6eaac5af2004c623a5",
+      "size": 2689408
+    },
+    "sampaux3.ttf": {
+      "hash": "d6f0c8b5f29181e4915ed3cb1bb04b55117bab14",
+      "size": 11544
+    },
+    "gta_sa.exe": {
+      "hash": "69e86f5ff95cf4aac55caa6de4ca9e3e3a149560",
+      "size": 14383616
+    },
+    "SAMP/samaps.txd": {
+      "hash": "d64ba932095df01aec31255147078d8820f500df",
+      "size": 656040
+    },
+    "SAMP/SAMP.ide": {
+      "hash": "5aef67fcfe871e3828b4686553c9471cf9b72497",
+      "size": 89347
+    },
+    "SAMP/CUSTOM.ide": {
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "size": 0
+    },
+    "SAMP/SAMPCOL.img": {
+      "hash": "cf5ec69bc0725c3b6b55c5934bfecac971060572",
+      "size": 3305472
+    },
+    "SAMP/SAMP.img": {
+      "hash": "fba6b6ce9d6ec0743e8c4137c8808d3ad1bf9f8e",
+      "size": 47261696
+    },
+    "SAMP/custom.img": {
+      "hash": "8c2dd82d07d41977946eb12225e017d08ff19d81",
+      "size": 8192
+    },
+    "SAMP/SAMP.ipl": {
+      "hash": "32d5cc60c1b56d62f0a4d5503ac1f60b1a1c97f1",
+      "size": 2291
+    },
+    "SAMP/blanktex.txd": {
+      "hash": "901fd1c737e95f09c096826eb547849ca1873b85",
+      "size": 33320
+    },
+    "samp.dll": {
+      "hash": "56c15c64ff098e04c319221b5a88142421e5ae34",
+      "size": 2199552
+    }
+  }
+}
