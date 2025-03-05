@@ -122,3 +122,9 @@ export interface WritePListFileResult {
   /** Информация о ошибке при записи plist файла */
   errorData?: Error | null;
 }
+
+/** Установочные константы скрипта */
+export interface Consts {
+  /** Наименование бутылки */
+  nameBottle: 'samp_butilka_cross';
+}
