@@ -4,17 +4,20 @@ import fs from 'fs';
 import os from 'os';
 import {
   Consts,
+  CreateBottleResult,
   CrossOverPreferences,
   ReadPListFileResult,
   WritePListFileResult,
 } from './interfaces.js';
 import bplistCreator from 'bplist-creator';
 import path from 'path';
-import { execSync } from 'child_process';
+import { exec, execSync } from 'child_process';
 
 /** Константы */
 const CONSTS: Consts = {
   nameBottle: 'sampizm_idiotizm_tupizm',
+  template: 'win7',
+  description: 'Windows7_32_samp',
 };
 
 const { cloneDeep } = lodash;
@@ -135,6 +138,7 @@ const removeRegistryBlock = (filePath: string, blockHeader: string) => {
 
 /** Проверяет корректность бутылки для CrossOver */
 const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
+  /** Путь до бутылки */
   const bottlePath = path.join(bottleDir, bottleName);
   if (!fs.existsSync(bottlePath) || !fs.lstatSync(bottlePath).isDirectory()) {
     console.error(
@@ -143,24 +147,29 @@ const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
     return false;
   }
 
+  /** Путь до файла системного редактора реестра */
   const systemRegPath = path.join(bottlePath, 'system.reg');
   if (!fs.existsSync(systemRegPath) || !fs.lstatSync(systemRegPath).isFile()) {
     console.error(`Файл system.reg не найден по пути ${systemRegPath}`);
     return false;
   }
 
+  /** Путь до диска C */
   const driveCPath = path.join(bottlePath, 'drive_c');
   if (!fs.existsSync(driveCPath) || !fs.lstatSync(driveCPath).isDirectory()) {
     console.error(`Директория drive_c не найдена по пути ${driveCPath}`);
     return false;
   }
+  /** Путь до папки с Windows */
   const windowsPath = path.join(driveCPath, 'windows');
   if (!fs.existsSync(windowsPath) || !fs.lstatSync(windowsPath).isDirectory()) {
     console.error(`Директория windows не найдена в ${driveCPath}`);
     return false;
   }
 
+  /** Вариант пути до DosDevices */
   const dosDevicesPath = path.join(bottlePath, 'DosDevices');
+  /** Вариант пути до dosdevices */
   const dosDevicesPathLower = path.join(bottlePath, 'dosdevices');
   if (
     !(
@@ -176,6 +185,7 @@ const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
     return false;
   }
 
+  /** Вариант пути до cxbottle */
   const configFile = path.join(bottlePath, 'cxbottle.conf');
   if (!fs.existsSync(configFile) || !fs.statSync(configFile).isFile()) {
     console.error(`Отсутствует конфигурационный файл: ${configFile}`);
@@ -183,8 +193,11 @@ const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
   }
 
   try {
+    /** Команда для проверки статуса бутылки через службу Crossover */
     const statusCommand = `/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\\ Application/cxbottle --status --bottle "${bottleName}"`;
+    /** Результат выполнения команды проверки статуса через службу Crossover */
     const statusOutput = execSync(statusCommand).toString().trim();
+    /** Статус наличия в ответе положительного для нас результата */
     const uptodateStatusBottle = statusOutput.includes('Status=uptodate');
 
     if (!uptodateStatusBottle) {
@@ -203,6 +216,73 @@ const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
   }
 
   return true;
+};
+
+/** Создает бутылку */
+const createBottle = async (
+  bottleDir: string,
+  bottleName: string,
+  template: string,
+  description: string = ''
+): Promise<CreateBottleResult> => {
+  /** Путь до бутылки */
+  const bottlePath = path.join(bottleDir, bottleName);
+
+  if (fs.existsSync(bottlePath)) {
+    console.log(
+      `Бутылка ${bottleName} уже существует, потому что путь не свободен!`
+    );
+    return {
+      error: true,
+      resultCreatedBottle: null,
+      errorData: null,
+    };
+  }
+
+  /** Команда для создания бутылки через службу Crossover */
+  const createCommand = `/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\\ Application/cxbottle --create --bottle "${bottleName}" --description "${description}" --template "${template}"`;
+
+  try {
+    /** Результат создания бутылки */
+    const resultCreatedBottle = await new Promise<string[]>(
+      (resolve, reject) => {
+        exec(createCommand, (error, stdout, stderr) => {
+          if (error) {
+            // Реальная ошибка, если процесс завершился с ненулевым кодом выхода
+            reject(new Error(`Ошибка при создании бутылки: ${error.message}`));
+            return;
+          }
+
+          // Логируем stderr как информационный вывод, а не ошибку
+          if (stderr) {
+            console.log(`Информационный вывод: ${stderr}`);
+          }
+
+          const successMessage: string[] = [`Бутылка создана`, stdout];
+
+          if (fs.existsSync(bottlePath)) {
+            successMessage.push(`Директория бутылки создана: ${bottlePath}`);
+          } else {
+            reject(new Error(`Директория бутылки не найдена после создания.`));
+            return;
+          }
+
+          resolve(successMessage);
+        });
+      }
+    );
+
+    return {
+      error: false,
+      resultCreatedBottle,
+    };
+  } catch (error) {
+    return {
+      error: true,
+      resultCreatedBottle: null,
+      errorData: error as Error,
+    };
+  }
 };
 
 /** Главная функция */
@@ -262,10 +342,26 @@ const main = async (): Promise<void> => {
 
   console.log('Файл записан успешно');
 
+  /** Статус корректности бутылки */
   const validStatusBottle = isBottleValid(bottleDir, CONSTS.nameBottle);
 
   if (!validStatusBottle) {
     console.error(`Бутылка ${CONSTS.nameBottle} некорректна или повреждена.`);
+
+    const createdBottleResult = await createBottle(
+      bottleDir,
+      CONSTS.nameBottle,
+      CONSTS.template,
+      CONSTS.description
+    );
+
+    if (createdBottleResult.error) {
+      console.error('Бутылка не была создана!');
+      console.error(createdBottleResult);
+    }
+
+    console.error('Бутылка создана!');
+    console.log(createdBottleResult.resultCreatedBottle);
     return;
   }
 

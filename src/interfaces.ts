@@ -127,4 +127,18 @@ export interface WritePListFileResult {
 export interface Consts {
   /** Наименование бутылки */
   nameBottle: string;
+  /** Шаблон для новой бутылки */
+  template: string;
+  /** Описание новой бутылки */
+  description: string;
+}
+
+/** Данные от функции чтения plist файла по пути */
+export interface CreateBottleResult {
+  /** Состояние ошибки при создании бутылки */
+  error: boolean;
+  /** Результат создания бутылки */
+  resultCreatedBottle: string[] | null;
+  /** Информация о ошибке при создании бутылки */
+  errorData?: Error | null;
 }
