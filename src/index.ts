@@ -10,10 +10,11 @@ import {
 } from './interfaces.js';
 import bplistCreator from 'bplist-creator';
 import path from 'path';
+import { execSync } from 'child_process';
 
 /** Константы */
 const CONSTS: Consts = {
-  nameBottle: 'samp_butilka_cross',
+  nameBottle: 'sampizm_idiotizm_tupizm',
 };
 
 const { cloneDeep } = lodash;
@@ -181,6 +182,26 @@ const isBottleValid = (bottleDir: string, bottleName: string): boolean => {
     return false;
   }
 
+  try {
+    const statusCommand = `/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\\ Application/cxbottle --status --bottle "${bottleName}"`;
+    const statusOutput = execSync(statusCommand).toString().trim();
+    const uptodateStatusBottle = statusOutput.includes('Status=uptodate');
+
+    if (!uptodateStatusBottle) {
+      console.error(
+        `Статус бутылки ${bottleName} не является актуальным. Статус: ${statusOutput}`
+      );
+      return false;
+    }
+  } catch (error) {
+    console.error(
+      `Ошибка при выполнении команды для проверки статуса бутылки: ${
+        (error as Error).message
+      }`
+    );
+    return false;
+  }
+
   return true;
 };
 
@@ -241,14 +262,14 @@ const main = async (): Promise<void> => {
 
   console.log('Файл записан успешно');
 
-  if (isBottleValid(bottleDir, CONSTS.nameBottle)) {
-    console.log(
-      `Бутылка ${CONSTS.nameBottle} корректна для CrossOver версии ${modifiedCrossOverPreferences.FirstRunVersion}.`
-    );
-  } else {
-    console.log(`Бутылка ${CONSTS.nameBottle} некорректна или повреждена.`);
+  const validStatusBottle = isBottleValid(bottleDir, CONSTS.nameBottle);
+
+  if (!validStatusBottle) {
+    console.error(`Бутылка ${CONSTS.nameBottle} некорректна или повреждена.`);
     return;
   }
+
+  console.log(`Бутылка корректна: "${CONSTS.nameBottle}"!`);
 
   removeRegistryBlock(
     `${bottleDir}/${CONSTS.nameBottle}/system.reg`,
@@ -261,3 +282,13 @@ const main = async (): Promise<void> => {
 };
 
 main();
+
+/**
+ *
+ * /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\ Application/cxbottle --create --bottle "sampizm_idiotizm_tupizm" --description "Windows7_32_samp" --template "win7"
+ * ! создает бутылку
+ *
+ * /Applications/CrossOver.app/Contents/SharedSupport/CrossOver/CrossOver-Hosted\ Application/cxbottle --status --bottle "sampizm_idiotizm_tupizm"
+ * ! проверка статуса бутылки
+ *
+ */

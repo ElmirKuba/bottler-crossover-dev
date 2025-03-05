@@ -126,5 +126,5 @@ export interface WritePListFileResult {
 /** Установочные константы скрипта */
 export interface Consts {
   /** Наименование бутылки */
-  nameBottle: 'samp_butilka_cross';
+  nameBottle: string;
 }
