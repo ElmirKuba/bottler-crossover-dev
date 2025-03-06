@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec node --loader ts-node/esm ./src/index.ts",
+    "samp": "nodemon --exec node --loader ts-node/esm ./src/samp-server-connect.ts",
     "lint": "eslint src/**/*.ts"
   },
   "keywords": [],
