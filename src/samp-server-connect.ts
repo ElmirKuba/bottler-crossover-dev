@@ -1,3 +1,5 @@
+process.env.LANG = 'ru_RU.UTF-8';
+
 import { exec } from 'child_process';
 
 // Функция для запуска SAMP через CrossOver
